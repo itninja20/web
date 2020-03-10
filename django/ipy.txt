@@ -1,0 +1,41 @@
+
+
+from api.models import Fachtest
+
+ft1 =  Fachtest(host_name="gfxajav4kt",pri_port=8543, sec_port=0,arch="backend",server_profile="back-l1s1-mws_bat",app_name="Batch",deploy_version="19.0.24", deployed_date="2011-09-01", fqdn="batch-ft1.corp.int",cmdb_app="AT_MWS",cmdb_asset="AT_MWS")
+
+ft1_1 = Fachtest(host_name="gfxajav4ut",pri_port=8543, sec_port=0,arch="backend",server_profile="back-l1s1-mws_bat",app_name="Batch",deploy_version="19.0.24", deployed_date="2011-09-01", fqdn="batch-ft1.corp.int",cmdb_app="AT_MWS",cmdb_asset="AT_MWS")
+
+
+ft1.save()
+ft1_1.save()
+
+
+
+
+example = MyModel.objects.get(pk=1)
+print(example.hand.north)
+
+new_hand = Hand(north, east, south, west)
+example.hand = new_hand
+example.save()
+
+
+### apache ###
+https://docs.djangoproject.com/en/3.0/howto/deployment/wsgi/modwsgi/
+https://docs.djangoproject.com/en/3.0/howto/deployment/wsgi/apache-auth/
+
+
+
+
+https://docs.djangoproject.com/en/3.0/howto/error-reporting/
+
+
+https://docs.djangoproject.com/en/3.0/howto/static-files/
+
+https://docs.djangoproject.com/en/3.0/
+
+https://djangopackages.org/
+
+
+
